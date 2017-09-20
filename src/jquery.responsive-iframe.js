@@ -18,7 +18,7 @@ $.fn.responsiveIframe = function(options) {
   };
 
   _options = options || {};
-  var ratio = options.ratio || (9 / 16);
+  var ratio = _options.ratio || (9 / 16);
   _options.ratio = ratio * 100;
 
   createClasses();
