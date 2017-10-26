@@ -11,7 +11,7 @@ $.fn.responsiveIframe = function(options) {
 
   var createClasses = function() {
     _randomClassName = "responsiveiframe-" + parseInt(Math.random() * 1000000) + "-" + parseInt(Math.random() * 1000000);
-    var styleCss = "." + _randomClassName + " { position: relative; padding-bottom: " + _options.ratio + "%; height: 0;} ." + _randomClassName + " iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }";
+    var styleCss = "." + _randomClassName + " { position: relative; padding-bottom: " + _options.ratio + "%; height: 0; overflow: hidden; max-width: 100%;} ." + _randomClassName + " iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }";
     var styleElem = document.createElement("style");
     styleElem.innerHTML = styleCss;
     document.head.appendChild(styleElem);
