@@ -1,0 +1,21 @@
+{
+  "name": "jquery.responsive-iframe",
+  "version": "1.0.0",
+  "description": "jQuery plugin to make iframe elements responsive by keeping the same ratio. Useful for youtube embeded videos.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/helix-github/jquery.responsive-iframe.git"
+  },
+  "keywords": [
+    "jquery",
+    "iframe",
+    "responsive"
+  ],
+  "author": "Toka <toka@helix.ge>",
+  "license": "MIT",
+  "homepage": "https://github.com/helix-github/jquery.responsive-iframe",
+  "dependencies": {
+    
+  }
+}
