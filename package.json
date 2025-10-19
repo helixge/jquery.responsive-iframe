@@ -1,6 +1,6 @@
 {
   "name": "jquery.responsive-iframe",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "jQuery plugin to make iframe elements responsive by keeping the same ratio. Useful for YouTube embedded videos.",
   "main": "index.js",
   "repository": {
